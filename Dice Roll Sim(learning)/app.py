@@ -15,3 +15,9 @@ tailsCount = np.sum(simToss == "Tails")#counts how many times Tails comes up
 
 print(headsCount)
 print(tailsCount / tosses)
+
+plt.bar(["Heads", "Tails"], [headsCount, tailsCount], color=['blue', 'red'])
+plt.xlabel("Outcome")
+plt.ylabel("Count")
+plt.title(f"Coin Toss Sim ({tosses} tosses)")
+plt.show()
