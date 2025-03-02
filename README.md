@@ -1,1 +1,1 @@
-Learning to code Python wiht various hands on projects
+Learning to code Python with various hands on projects
